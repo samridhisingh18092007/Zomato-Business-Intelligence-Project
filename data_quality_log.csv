@@ -1,0 +1,16 @@
+Dataset,Column,Issue,Count,Action
+orders,FoodCost,Negative values,181,"Flagged, not modified"
+orders,FinalAmount,Missing values,325,Pending investigation
+orders,CustomerID,Unmatched foreign keys,12,"Flagged, not deleted"
+orders,RestaurantID,Unmatched foreign keys,13,"Flagged, not deleted"
+customers,Age,Negative values,258,"Flagged, not modified"
+orders,DeliveryTimeMinutes,Negative values,208,"Flagged, not modified"
+menu,Price,Negative values,90,"Flagged, not modified"
+restaurants,AverageCost,Negative values,15,"Flagged, not modified"
+delivery_partners,AverageDeliveryTime,Negative values,27,"Flagged, not modified"
+traffic,AverageSpeed,Negative values,186,"Flagged, not modified"
+weather,Humidity,Negative values,189,"Flagged, not modified"
+order_items,Quantity,Negative values,417,"Flagged, not modified"
+order_items,TotalPrice,Missing values,6,"Flagged, not modified"
+order_items,TotalPrice,Formula mismatch,411,Flagged for investigation
+orders,CouponCode,Missing values,13281,Replaced with No Coupon
