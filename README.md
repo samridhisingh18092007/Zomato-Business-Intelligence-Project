@@ -1,66 +1,105 @@
-Credora – Zomato Business Intelligence & Delivery Time Prediction Platform
+# Zomato Business Intelligence & Delivery Time Prediction Platform
 
-Project Overview
+## 1. Project Overview
+This project analyzes Zomato's business data to understand sales, customer behavior, restaurant performance, and delivery operations. It also uses machine learning to predict delivery time and identify customer churn patterns.
 
-Credora is a data analytics and machine learning project based on Zomato business data. It analyzes customer behaviour, orders, revenue, restaurant performance and delivery patterns.
+## 2. Project Objectives
+- Analyze orders, customers, restaurants, and sales.
+- Identify business trends and customer behavior.
+- Study delivery performance.
+- Build machine learning models.
+- Create interactive Power BI dashboards.
+- Generate useful business insights.
 
-Objectives
-
-- Analyze 12 business datasets.
-- Perform data cleaning and preprocessing.
-- Conduct Exploratory Data Analysis (EDA).
-- Perform SQL-based business analysis.
-- Build delivery time prediction models.
-- Analyze customer churn.
-- Develop a Power BI dashboard.
-
-Technologies Used
-
+## 3. Tools and Technologies
 - Python
-- Google Colab
 - Pandas and NumPy
 - Matplotlib and Seaborn
-- Scikit-learn
-- Neon PostgreSQL
 - SQL
-- Microsoft Power BI
+- Power BI
+- Scikit-learn
+- Jupyter Notebook / Google Colab
 
-Datasets
+## 4. Project Workflow
+1. Data collection and loading
+2. Data cleaning and preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature engineering
+5. SQL business analysis
+6. Machine learning model development
+7. Power BI dashboard creation
+8. Business insights and reporting
 
-The project uses 12 datasets: Customers, Orders, Restaurants, Cities, Menu, Delivery Partners, Traffic, Weather, Order Items, Customer Feedback, Payments and Promotions.
+## 5. Dataset Description
+The project uses multiple datasets related to:
+- Customers
+- Orders
+- Restaurants
+- Cities
+- Menu and order items
+- Delivery partners
+- Payments
+- Promotions
+- Traffic and weather
+- Customer feedback
 
-Machine Learning Models
+## 6. SQL Analysis
+SQL queries are used to analyze:
+- Total revenue and average order value
+- Monthly sales trends
+- Restaurant performance
+- Customer activity
+- Payment methods
+- Order status
+- Delivery performance
 
-Regression
+## 7. Exploratory Data Analysis
+Python libraries are used to explore the datasets and create visualizations to understand business patterns, relationships, and trends.
 
-- Linear Regression
-- Decision Tree
-- Random Forest
-- Gradient Boosting
+## 8. Machine Learning
+The project includes:
+- Delivery time prediction using regression models.
+- Customer churn classification using machine learning models.
+- Model comparison using evaluation metrics.
 
-Classification
+## 9. Power BI Dashboard
+The Power BI report contains six dashboard pages:
+1. Executive Dashboard
+2. Customer Analytics
+3. Restaurant Analytics
+4. Delivery Analytics
+5. Sales Dashboard
+6. ML Dashboard
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
+## 10. Reports and Presentation
+The project includes:
+- EDA Report
+- Business Insights Report
+- Project Report
+- Project Presentation
 
-Key Business Insights
+## 11. Installation Instructions
+Install the required Python libraries:
 
-- Total Customers: 12,000
-- Total Orders: 20,500
-- Total Revenue: ₹79,07,304
-- Average Order Value: ₹391.94
-- Total Restaurants: 1,200
+```bash
+pip install -r requirements.txt
+```
 
-Power BI Dashboard
+## 12. Usage Instructions
+1. Download or clone the project repository.
+2. Install the required libraries.
+3. Open the Python notebook.
+4. Run the analysis and machine learning sections.
+5. Open the Power BI file to explore the dashboards.
 
-- Delivery Time Analysis
-- Monthly Revenue Analysis
-- Order Status Analysis
-- Payment Method Analysis
-- Top Restaurants Analysis
+## 13. Future Improvements
+- Improve machine learning model performance.
+- Add more business metrics.
+- Develop an automated data pipeline.
+- Build an interactive prediction application.
 
-Author
+## 14. Conclusion
+This project combines data analysis, SQL, machine learning, and Power BI to understand Zomato's business performance and generate meaningful business insights.
 
-Samridhi Singh
-Bachelor of Computer Applications (BCA)
+## 15. License
+This project is created for educational and internship purposes.
